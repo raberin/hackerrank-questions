@@ -6,5 +6,4 @@ def compareTriplets(a, b):
             result[0] += 1
         elif b[x] > a[x]:
             result[1] += 1
-
     return result
