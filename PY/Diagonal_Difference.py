@@ -4,13 +4,11 @@ def diagonalDifference(arr):
     rightDiag = 0
     leftPointer = 0
     rightPointer = len(arr) - 1
-
     for ele in arr:
         leftDiag += ele[leftPointer]
         leftPointer += 1
         rightDiag += ele[rightPointer]
         rightPointer -= 1
-
     result = leftDiag - rightDiag
     return abs(result)
 
