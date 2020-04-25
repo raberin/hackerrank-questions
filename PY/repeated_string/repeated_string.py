@@ -16,3 +16,4 @@ def repeatedString(s, n):
     remainder_str = s[:n % len(s)]
     remainder_a = remainder_str.count('a')
     return a_in_s * num_of_repeats + remainder_a
+
